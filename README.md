@@ -68,7 +68,7 @@ to-do-app/
 
 1. **Open the index.html file in a web browser:**
 
-   You can directly open `templates/index.html` in a browser or serve it using a web server.
+   You can directly open **`templates/index.html`** in a browser or serve it using a web server.
 
 ## API Endpoints
 
