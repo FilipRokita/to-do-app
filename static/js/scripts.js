@@ -53,9 +53,9 @@ function showTaskDetails(taskId) {
             taskDetails.innerHTML = `
                 <h3>${task.title}</h3>
                 <p>${task.description}</p>
-                <p><strong>Data:</strong> ${task.date}</p>
-                <button onclick="deleteTask(${task.id})">Usuń</button>
-                <button onclick="markAsDone(${task.id})">${task.done ? 'Oznacz jako niewykonane' : 'Oznacz jako wykonane'}</button>
+                <p><strong>Date:</strong> ${task.date}</p>
+                <button onclick="deleteTask(${task.id})">Delete</button>
+                <button onclick="markAsDone(${task.id})">${task.done ? 'Mark as incomplete' : 'Mark as done'}</button>
             `;
         });
 }
