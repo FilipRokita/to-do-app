@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>To-Do App</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='css/styles.css') }}">
+</head>
+<body>
+    <div class="container">
+        <div class="sidebar">
+            <h2>Menu</h2>
+            <input type="text" id="search" placeholder="Szukaj...">
+            <h3>Zadania niewykonane</h3>
+            <ul id="task-list"></ul>
+            <h3><span id="completed-tasks-toggle" onclick="toggleCompletedTasks()">Zadania wykonane (kliknij aby rozwinąć)</span></h3>
+            <ul id="completed-task-list" style="display: none;"></ul>
+            <h2>Dodaj zadanie</h2>
+            <form id="add-task-form">
+                <input type="text" id="new-task-title" placeholder="Tytuł" required>
+                <input type="text" id="new-task-description" placeholder="Opis" required>
+                <input type="date" id="new-task-date" required>
+                <button type="submit">Dodaj</button>
+            </form>
+        </div>
+        <div class="main">
+            <h2>Zadania na dziś</h2>
+            <ul id="today-tasks"></ul>
+        </div>
+        <div class="details">
+            <h2>Szczegóły zadania</h2>
+            <div id="task-details"></div>
+        </div>
+    </div>
+    <script src="{{ url_for('static', filename='js/scripts.js') }}"></script>
+</body>
+</html>

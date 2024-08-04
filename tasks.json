@@ -1,0 +1,29 @@
+[
+    {
+        "id": 1,
+        "title": "Kup mleko",
+        "description": "Kup mleko w sklepie",
+        "date": "2024-08-04",
+        "done": true
+    },
+    {
+        "id": 2,
+        "title": "Spotkanie z Janem",
+        "description": "Spotkanie w sprawie projektu",
+        "date": "2024-08-04",
+        "done": true
+    },
+    {
+        "id": 3,
+        "title": "Odwied\u017a bibliotek\u0119",
+        "description": "Zwr\u00f3\u0107 ksi\u0105\u017cki do biblioteki",
+        "date": "2024-08-05"
+    },
+    {
+        "title": "test",
+        "description": "test",
+        "date": "2025-05-04",
+        "done": true,
+        "id": 4
+    }
+]
