@@ -30,6 +30,7 @@ ul {
 
 li {
     padding: 5px 0;
+    cursor: pointer; /* Dodano kursor typu pointer */
 }
 
 form {
