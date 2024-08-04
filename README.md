@@ -2,6 +2,12 @@
 
 A simple task management application allowing users to add, view, mark as done, and delete tasks. The application supports filtering tasks and viewing tasks for today.
 
+## Screenshot
+
+![Screenshot of the Task Manager](images/screenshot.png)
+
+This screenshot shows how the Task Manager Web Application looks when running. 
+
 ## Features
 
 - **View Tasks**: Display tasks based on their completion status.
