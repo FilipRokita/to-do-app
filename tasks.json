@@ -11,7 +11,7 @@
         "title": "Meeting with John",
         "description": "Project meeting",
         "date": "2024-08-04",
-        "done": true
+        "done": false
     },
     {
         "id": 3,
